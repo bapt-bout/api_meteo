@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Meteo</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API Meteo</title>
+        <link rel="stylesheet" href="styles.css">
 
-    <script src="script.js"></script>
-</body>
+    </head>
+    <body>
+        
+        <div class="form-group">
+            <main class="container">
+                <div id="city-input" class="search-container" >
+                    <input  type="text" class="city-input" placeholder="Entrez un nom de ville"/>
+                    <label for="city-input" class="city-label">
+                    <i class="fa-solid fa-city"></i>
+                    <p class="city-label__text">API Météo</p>
+                    </label>
+                    <button id="search-btn" class="see-more-container button-85 neonText" role="button">Recherche</button>
+                    </div>
+                    <div class="cities"></div>
+                    
+                    
+                </div>
+            
+            </main>
+
+        <script src="script.js"></script>
+  
+    </body>
 </html>
